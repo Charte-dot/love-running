@@ -132,3 +132,7 @@ h1, h2 {
     margin-bottom: 50px;
 
 }
+
+#times {
+    background-image: url('../images/times-background.webp');
+}
