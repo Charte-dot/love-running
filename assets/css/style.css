@@ -115,14 +115,15 @@ h1, h2 {
     width: 33%;
     margin: 0 auto;
     background-color: green;
-
-    hr {
-        border-top: 1px solid #3a3a3a;
-        width: 100%;
-        margin: 5px 0;
-    }
+}
+    
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
 
 }
+
 
 .left-about-heading {
     width: 60%;
@@ -130,9 +131,14 @@ h1, h2 {
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
-
 }
 
 #times {
-    background-image: url('../images/times-background.webp');
+    background-image: url("../images/time-background.webp");
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+    
 }
